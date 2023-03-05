@@ -1,8 +1,6 @@
-// borrador.
 
-// Haremos unos objetos con cada una de las capitales de latinoametica, con la distancia desde bogota. 
+// Haremos unos objetos con algunas de las capitales de latinoametica, con la distancia desde bogota. 
 // Saldremmos del dorado, aeropuerto de Bogota
-// Precio de hoteles promedio en 3 estrellas.
 
 
 class country {
@@ -117,8 +115,6 @@ function budgetMulti(value,multi) {
     const bMulti = value * multi
     return bMulti
 }
-
-// Calculos deben ser de budget y flight. 
 
 
 const finalFlight = budgetMulti(budgetMulti(infoDestination.flight,infoSeason.value),travelers)
